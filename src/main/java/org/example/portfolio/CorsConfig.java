@@ -16,6 +16,7 @@ public class CorsConfig {
                                 "http://localhost:4200",
                                 "https://wiemet.github.io"
                         )
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedMethods("*");
             }
         };
